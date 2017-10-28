@@ -1,0 +1,30 @@
+.jumbotron {
+  background-image: url(old-map.jpg)
+}
+
+.heading {
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 20px;
+  padding: 25px;
+  margin-right: 140px;
+}
+
+.jumbotron h1 {
+  font-size: 60px;
+  font-family: "Abril Fatface";
+  color: #564c36;
+}
+
+.container {
+  background-color: #f2ede3;
+}
+
+body {
+  background-color: #564c36;
+}
+
+form {
+  margin-left: 50px;
+  font-size: 1.2em;
+  font-family: 'Alegreya Sans', sans-serif;
+}
