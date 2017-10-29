@@ -33,13 +33,14 @@ $(document).ready(function(){
     questions(q6);
 
     if (shire >= hog && shire >= ww && shire >= pan) {
-
+      $(".shire").show();
     } else if (hog >= shire && hog >= ww && hog >= pan) {
-
+      $(".hog").show();
     } else if (ww >= hog && ww >= shire && ww >= pan) {
-
+      $(".ww").show();
     } else {
-
+      $(".pan").show();
     }
+    $("#quiz").hide();
   });
 });
